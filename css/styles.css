@@ -1,0 +1,74 @@
+@charset "UTF-8" ;
+
+/* M22W0B03 佐久間美緒 */
+
+body{
+  font-size: 18px;
+  font-family: serif;
+  color: #054427;
+  background-image: url(../img/background-color.jpeg);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #43ad19b9;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: #419982;
+}
+
+.sagamihara {
+  font-family: sans-serif;
+  color: #36c439;
+  animation: sa 2s infinite;
+}
+@keyframes sa {
+  50% {color: #16e7cb;}
+  100% {color: #36c439;}
+}
+
+.machida {
+  font-family: sans-serif;
+  color: #26d49e;
+  animation: ma 2s infinite;
+}
+@keyframes ma {
+  50% {color: #470db3;}
+  100% {color: #26d49e;}
+}
+
+span {
+  color: #e71616;
+  font-size: 1.5rem;
+  font-style: oblique;
+  text-decoration: underline;
+  animation: spa 500ms infinite;
+}
+@keyframes spa {
+  33% {color: #e02bd7;}
+  66% {color: #e05e2b;}
+}
+
+img {
+  width: 300px;
+  border: 5px solid #e4f13e;
+  float: left;
+}
+img:hover {
+  width: 600px;
+}
+.pic {
+  transition: width 500ms ease 1s;
+}
+
+.float-clear {
+  clear: both;
+}
+
+a:link {color: #29d49b;}
+a:visited {color: #52a731;}
+a:hover {color: #2b7048;}
+a:active {color: #65b30d;}
